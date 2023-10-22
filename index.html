@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the game</title>
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+</head>
+
+<body>
+    <p class="head">Rock,paper and scissors game</p>
+    <button class="button-css" onclick="
+            computer_selected()
+            player ='rock';
+            game_result(player);
+        "><img src="rock-emoji.png" class="img">
+    </button>
+
+    <button class="button-css" onclick="
+            computer_selected()
+            player ='paper';
+            game_result(player);
+            "><img src="paper-emoji.png" class="img">
+    </button>
+
+
+    <button class="button-css" onclick="
+            computer_selected()
+             player ='scissors';
+            game_result(player);
+        "><img src="scissors-emoji.png" class="img"></button>
+
+
+    <p class="game1">game_result</p>
+    <p class="game2">Choice of each side
+
+    </p>
+    <p class="game">Scorers</p>
+
+    <!-- <audio controls autoplay loop>
+        <source src="music/Pehli Dafa - Atif Aslam 320Kbps.mp3">
+        <source src="music/Pehli Dafa - Atif Aslam 320Kbps.mp3" type="audio/mpeg"> -->
+    <!-- Your browser does not support the audio tag. -->
+    <!-- </audio><br> -->
+
+
+    <button class="reset1-button" onclick="
+        reset(); ">reset</button>
+
+
+
+    <script src="rock-paper-scissors.js"></script>
+</body>
+
+</html>
